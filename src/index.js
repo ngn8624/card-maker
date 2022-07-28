@@ -11,8 +11,6 @@ const imageUploader = new ImageUploader();
 const FileInput = props => (
   <ImageFileInput {...props} imageUploader={imageUploader} />
 );
-
-console.log("index");
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
