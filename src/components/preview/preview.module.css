@@ -2,7 +2,7 @@
 
 .preview {
   flex-basis: 50%;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .title {
