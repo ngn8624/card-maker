@@ -11,7 +11,6 @@ const Login = ({ authService }) => {
       pathname: '/maker',
       state: { id: userId },
     });
-    console.log("userId", userId);
   };
 
   const onLogin = event => {
